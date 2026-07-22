@@ -1,0 +1,44 @@
+{
+  "project_name": "منصة إدارة أعمال الفنادق",
+  "project_type": "booking_system",
+  "color_palette": "blue-500 and gray-200",
+  "modules": [
+    "bookings",
+    "rooms",
+    "services"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_bookings",
+    "list_rooms",
+    "list_services",
+    "create_booking",
+    "create_room",
+    "create_service"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_bookings",
+      "list_rooms",
+      "list_services",
+      "create_booking"
+    ],
+    "admin": [
+      "index",
+      "list_bookings",
+      "list_rooms",
+      "list_services",
+      "create_booking",
+      "create_room",
+      "create_service"
+    ]
+  }
+}
